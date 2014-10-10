@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFC699D00FA4AF7BBE79DAA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7458CCF20647DF95D0AFD4 /* libPods.a */; };
+		1062FA5A83F04BEA91D9763F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7458CCF20647DF95D0AFD4 /* libPods.a */; };
+		18DAE1D2494544DFA2CB3D08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7458CCF20647DF95D0AFD4 /* libPods.a */; };
+		BD5AF3ED19CBD10600D0288B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF3EC19CBD10600D0288B /* main.m */; };
+		BD5AF3F019CBD10600D0288B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF3EF19CBD10600D0288B /* AppDelegate.m */; };
+		BD5AF3F319CBD10600D0288B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF3F219CBD10600D0288B /* ViewController.m */; };
+		BD5AF3F619CBD10600D0288B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5AF3F419CBD10600D0288B /* Main.storyboard */; };
+		BD5AF3F819CBD10600D0288B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5AF3F719CBD10600D0288B /* Images.xcassets */; };
+		BD5AF3FB19CBD10600D0288B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5AF3F919CBD10600D0288B /* LaunchScreen.xib */; };
+		BD5AF40719CBD10600D0288B /* ZJUWLANTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF40619CBD10600D0288B /* ZJUWLANTests.m */; };
+		BD5AF41119CBD24A00D0288B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5AF41019CBD24A00D0288B /* NetworkExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BD5AF41A19CBD38C00D0288B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5AF41919CBD38C00D0288B /* NotificationCenter.framework */; };
+		BD5AF42019CBD38C00D0288B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF41F19CBD38C00D0288B /* TodayViewController.m */; };
+		BD5AF42219CBD38C00D0288B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5AF42119CBD38C00D0288B /* MainInterface.storyboard */; };
+		BD5AF42519CBD38C00D0288B /* TodayExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD5AF41719CBD38C00D0288B /* TodayExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD5AF43219CC830100D0288B /* ZJUNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF43119CC830100D0288B /* ZJUNetworkManager.m */; };
+		BD5AF43319CC830100D0288B /* ZJUNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5AF43119CC830100D0288B /* ZJUNetworkManager.m */; };
+		BDD8727019CF26C600993502 /* FullWidthTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8726F19CF26C600993502 /* FullWidthTextField.m */; };
+		BDD8727319CF26D900993502 /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727219CF26D900993502 /* RoundButton.m */; };
+		BDD8728619D07A5B00993502 /* CALayer+DTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727A19D07A5B00993502 /* CALayer+DTI.swift */; };
+		BDD8728719D07A5B00993502 /* CALayer+DTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727A19D07A5B00993502 /* CALayer+DTI.swift */; };
+		BDD8728819D07A5B00993502 /* DTIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727B19D07A5B00993502 /* DTIActivityIndicatorView.swift */; };
+		BDD8728919D07A5B00993502 /* DTIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727B19D07A5B00993502 /* DTIActivityIndicatorView.swift */; };
+		BDD8728A19D07A5B00993502 /* DTIAnimChasingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727C19D07A5B00993502 /* DTIAnimChasingDots.swift */; };
+		BDD8728B19D07A5B00993502 /* DTIAnimChasingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727C19D07A5B00993502 /* DTIAnimChasingDots.swift */; };
+		BDD8728C19D07A5B00993502 /* DTIAnimDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727D19D07A5B00993502 /* DTIAnimDoubleBounce.swift */; };
+		BDD8728D19D07A5B00993502 /* DTIAnimDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727D19D07A5B00993502 /* DTIAnimDoubleBounce.swift */; };
+		BDD8728E19D07A5B00993502 /* DTIAnimProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727E19D07A5B00993502 /* DTIAnimProtocol.swift */; };
+		BDD8728F19D07A5B00993502 /* DTIAnimProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727E19D07A5B00993502 /* DTIAnimProtocol.swift */; };
+		BDD8729019D07A5B00993502 /* DTIAnimPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727F19D07A5B00993502 /* DTIAnimPulse.swift */; };
+		BDD8729119D07A5B00993502 /* DTIAnimPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8727F19D07A5B00993502 /* DTIAnimPulse.swift */; };
+		BDD8729219D07A5B00993502 /* DTIAnimRotatingPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728019D07A5B00993502 /* DTIAnimRotatingPlane.swift */; };
+		BDD8729319D07A5B00993502 /* DTIAnimRotatingPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728019D07A5B00993502 /* DTIAnimRotatingPlane.swift */; };
+		BDD8729419D07A5B00993502 /* DTIAnimSpotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728119D07A5B00993502 /* DTIAnimSpotify.swift */; };
+		BDD8729519D07A5B00993502 /* DTIAnimSpotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728119D07A5B00993502 /* DTIAnimSpotify.swift */; };
+		BDD8729619D07A5B00993502 /* DTIAnimWanderingCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728219D07A5B00993502 /* DTIAnimWanderingCubes.swift */; };
+		BDD8729719D07A5B00993502 /* DTIAnimWanderingCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728219D07A5B00993502 /* DTIAnimWanderingCubes.swift */; };
+		BDD8729819D07A5B00993502 /* DTIAnimWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728319D07A5B00993502 /* DTIAnimWave.swift */; };
+		BDD8729919D07A5B00993502 /* DTIAnimWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728319D07A5B00993502 /* DTIAnimWave.swift */; };
+		BDD8729A19D07A5B00993502 /* DTIAnimWp8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728419D07A5B00993502 /* DTIAnimWp8.swift */; };
+		BDD8729B19D07A5B00993502 /* DTIAnimWp8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728419D07A5B00993502 /* DTIAnimWp8.swift */; };
+		BDD8729C19D07A5B00993502 /* DTIIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728519D07A5B00993502 /* DTIIndicatorStyle.swift */; };
+		BDD8729D19D07A5B00993502 /* DTIIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8728519D07A5B00993502 /* DTIIndicatorStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5AF40119CBD10600D0288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5AF3DF19CBD10600D0288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5AF3E619CBD10600D0288B;
+			remoteInfo = ZJUWLAN;
+		};
+		BD5AF42319CBD38C00D0288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5AF3DF19CBD10600D0288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5AF41619CBD38C00D0288B;
+			remoteInfo = TodayExt;
+		};
+		BD5AF42619CBD38C00D0288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5AF3DF19CBD10600D0288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5AF41619CBD38C00D0288B;
+			remoteInfo = TodayExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD5AF42B19CBD38C00D0288B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD5AF42519CBD38C00D0288B /* TodayExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BD5AF3E719CBD10600D0288B /* ZJUWLAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUWLAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5AF3EB19CBD10600D0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5AF3EC19CBD10600D0288B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5AF3EE19CBD10600D0288B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD5AF3EF19CBD10600D0288B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD5AF3F119CBD10600D0288B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD5AF3F219CBD10600D0288B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD5AF3F519CBD10600D0288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5AF3F719CBD10600D0288B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD5AF3FA19CBD10600D0288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD5AF40019CBD10600D0288B /* ZJUWLANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUWLANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5AF40519CBD10600D0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5AF40619CBD10600D0288B /* ZJUWLANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUWLANTests.m; sourceTree = "<group>"; };
+		BD5AF41019CBD24A00D0288B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		BD5AF41219CBD24A00D0288B /* ZJUWLAN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZJUWLAN.entitlements; sourceTree = "<group>"; };
+		BD5AF41719CBD38C00D0288B /* TodayExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5AF41919CBD38C00D0288B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BD5AF41D19CBD38C00D0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5AF41E19CBD38C00D0288B /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		BD5AF41F19CBD38C00D0288B /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		BD5AF42119CBD38C00D0288B /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		BD5AF43019CC830100D0288B /* ZJUNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJUNetworkManager.h; path = CommonClass/ZJUNetworkManager.h; sourceTree = "<group>"; };
+		BD5AF43119CC830100D0288B /* ZJUNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJUNetworkManager.m; path = CommonClass/ZJUNetworkManager.m; sourceTree = "<group>"; };
+		BDD8726E19CF26C600993502 /* FullWidthTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullWidthTextField.h; path = CommonClass/FullWidthTextField.h; sourceTree = "<group>"; };
+		BDD8726F19CF26C600993502 /* FullWidthTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullWidthTextField.m; path = CommonClass/FullWidthTextField.m; sourceTree = "<group>"; };
+		BDD8727119CF26D900993502 /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundButton.h; path = CommonClass/RoundButton.h; sourceTree = "<group>"; };
+		BDD8727219CF26D900993502 /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundButton.m; path = CommonClass/RoundButton.m; sourceTree = "<group>"; };
+		BDD8727719D079C700993502 /* ZJUWLAN-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZJUWLAN-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDD8727919D07A5B00993502 /* TodayExt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TodayExt-Bridging-Header.h"; path = "../TodayExt-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDD8727A19D07A5B00993502 /* CALayer+DTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+DTI.swift"; path = "CommonClass/DTIAnimView/CALayer+DTI.swift"; sourceTree = "<group>"; };
+		BDD8727B19D07A5B00993502 /* DTIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIActivityIndicatorView.swift; path = CommonClass/DTIAnimView/DTIActivityIndicatorView.swift; sourceTree = "<group>"; };
+		BDD8727C19D07A5B00993502 /* DTIAnimChasingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimChasingDots.swift; path = CommonClass/DTIAnimView/DTIAnimChasingDots.swift; sourceTree = "<group>"; };
+		BDD8727D19D07A5B00993502 /* DTIAnimDoubleBounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimDoubleBounce.swift; path = CommonClass/DTIAnimView/DTIAnimDoubleBounce.swift; sourceTree = "<group>"; };
+		BDD8727E19D07A5B00993502 /* DTIAnimProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimProtocol.swift; path = CommonClass/DTIAnimView/DTIAnimProtocol.swift; sourceTree = "<group>"; };
+		BDD8727F19D07A5B00993502 /* DTIAnimPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimPulse.swift; path = CommonClass/DTIAnimView/DTIAnimPulse.swift; sourceTree = "<group>"; };
+		BDD8728019D07A5B00993502 /* DTIAnimRotatingPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimRotatingPlane.swift; path = CommonClass/DTIAnimView/DTIAnimRotatingPlane.swift; sourceTree = "<group>"; };
+		BDD8728119D07A5B00993502 /* DTIAnimSpotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimSpotify.swift; path = CommonClass/DTIAnimView/DTIAnimSpotify.swift; sourceTree = "<group>"; };
+		BDD8728219D07A5B00993502 /* DTIAnimWanderingCubes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimWanderingCubes.swift; path = CommonClass/DTIAnimView/DTIAnimWanderingCubes.swift; sourceTree = "<group>"; };
+		BDD8728319D07A5B00993502 /* DTIAnimWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimWave.swift; path = CommonClass/DTIAnimView/DTIAnimWave.swift; sourceTree = "<group>"; };
+		BDD8728419D07A5B00993502 /* DTIAnimWp8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIAnimWp8.swift; path = CommonClass/DTIAnimView/DTIAnimWp8.swift; sourceTree = "<group>"; };
+		BDD8728519D07A5B00993502 /* DTIIndicatorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTIIndicatorStyle.swift; path = CommonClass/DTIAnimView/DTIIndicatorStyle.swift; sourceTree = "<group>"; };
+		DD7458CCF20647DF95D0AFD4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5AF3E419CBD10600D0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF41119CBD24A00D0288B /* NetworkExtension.framework in Frameworks */,
+				0FFC699D00FA4AF7BBE79DAA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF3FD19CBD10600D0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAE1D2494544DFA2CB3D08 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF41419CBD38C00D0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF41A19CBD38C00D0288B /* NotificationCenter.framework in Frameworks */,
+				1062FA5A83F04BEA91D9763F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5AF3DE19CBD10600D0288B = {
+			isa = PBXGroup;
+			children = (
+				BD5AF42F19CC82C000D0288B /* CommonClass */,
+				BD5AF41019CBD24A00D0288B /* NetworkExtension.framework */,
+				BD5AF3E919CBD10600D0288B /* ZJUWLAN */,
+				BD5AF40319CBD10600D0288B /* ZJUWLANTests */,
+				BD5AF41B19CBD38C00D0288B /* TodayExt */,
+				BD5AF41819CBD38C00D0288B /* Frameworks */,
+				BD5AF3E819CBD10600D0288B /* Products */,
+				3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5AF3E819CBD10600D0288B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF3E719CBD10600D0288B /* ZJUWLAN.app */,
+				BD5AF40019CBD10600D0288B /* ZJUWLANTests.xctest */,
+				BD5AF41719CBD38C00D0288B /* TodayExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5AF3E919CBD10600D0288B /* ZJUWLAN */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF41219CBD24A00D0288B /* ZJUWLAN.entitlements */,
+				BD5AF3EE19CBD10600D0288B /* AppDelegate.h */,
+				BD5AF3EF19CBD10600D0288B /* AppDelegate.m */,
+				BD5AF3F119CBD10600D0288B /* ViewController.h */,
+				BD5AF3F219CBD10600D0288B /* ViewController.m */,
+				BD5AF3F419CBD10600D0288B /* Main.storyboard */,
+				BD5AF3F719CBD10600D0288B /* Images.xcassets */,
+				BD5AF3F919CBD10600D0288B /* LaunchScreen.xib */,
+				BDD8727919D07A5B00993502 /* TodayExt-Bridging-Header.h */,
+				BD5AF3EA19CBD10600D0288B /* Supporting Files */,
+				BDD8727719D079C700993502 /* ZJUWLAN-Bridging-Header.h */,
+			);
+			path = ZJUWLAN;
+			sourceTree = "<group>";
+		};
+		BD5AF3EA19CBD10600D0288B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF3EB19CBD10600D0288B /* Info.plist */,
+				BD5AF3EC19CBD10600D0288B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5AF40319CBD10600D0288B /* ZJUWLANTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF40619CBD10600D0288B /* ZJUWLANTests.m */,
+				BD5AF40419CBD10600D0288B /* Supporting Files */,
+			);
+			path = ZJUWLANTests;
+			sourceTree = "<group>";
+		};
+		BD5AF40419CBD10600D0288B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF40519CBD10600D0288B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5AF41819CBD38C00D0288B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF41919CBD38C00D0288B /* NotificationCenter.framework */,
+				DD7458CCF20647DF95D0AFD4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5AF41B19CBD38C00D0288B /* TodayExt */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF41E19CBD38C00D0288B /* TodayViewController.h */,
+				BD5AF41F19CBD38C00D0288B /* TodayViewController.m */,
+				BD5AF42119CBD38C00D0288B /* MainInterface.storyboard */,
+				BD5AF41C19CBD38C00D0288B /* Supporting Files */,
+			);
+			path = TodayExt;
+			sourceTree = "<group>";
+		};
+		BD5AF41C19CBD38C00D0288B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AF41D19CBD38C00D0288B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5AF42F19CC82C000D0288B /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				BDD8727819D07A2C00993502 /* DTIAnimView */,
+				BD5AF43019CC830100D0288B /* ZJUNetworkManager.h */,
+				BD5AF43119CC830100D0288B /* ZJUNetworkManager.m */,
+				BDD8726E19CF26C600993502 /* FullWidthTextField.h */,
+				BDD8726F19CF26C600993502 /* FullWidthTextField.m */,
+				BDD8727119CF26D900993502 /* RoundButton.h */,
+				BDD8727219CF26D900993502 /* RoundButton.m */,
+			);
+			name = CommonClass;
+			sourceTree = "<group>";
+		};
+		BDD8727819D07A2C00993502 /* DTIAnimView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD8727A19D07A5B00993502 /* CALayer+DTI.swift */,
+				BDD8727B19D07A5B00993502 /* DTIActivityIndicatorView.swift */,
+				BDD8727C19D07A5B00993502 /* DTIAnimChasingDots.swift */,
+				BDD8727D19D07A5B00993502 /* DTIAnimDoubleBounce.swift */,
+				BDD8727E19D07A5B00993502 /* DTIAnimProtocol.swift */,
+				BDD8727F19D07A5B00993502 /* DTIAnimPulse.swift */,
+				BDD8728019D07A5B00993502 /* DTIAnimRotatingPlane.swift */,
+				BDD8728119D07A5B00993502 /* DTIAnimSpotify.swift */,
+				BDD8728219D07A5B00993502 /* DTIAnimWanderingCubes.swift */,
+				BDD8728319D07A5B00993502 /* DTIAnimWave.swift */,
+				BDD8728419D07A5B00993502 /* DTIAnimWp8.swift */,
+				BDD8728519D07A5B00993502 /* DTIIndicatorStyle.swift */,
+			);
+			name = DTIAnimView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5AF3E619CBD10600D0288B /* ZJUWLAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5AF40A19CBD10600D0288B /* Build configuration list for PBXNativeTarget "ZJUWLAN" */;
+			buildPhases = (
+				314B46B2AEBB4E9FB5A7A1C8 /* Check Pods Manifest.lock */,
+				BD5AF3E319CBD10600D0288B /* Sources */,
+				BD5AF3E419CBD10600D0288B /* Frameworks */,
+				BD5AF3E519CBD10600D0288B /* Resources */,
+				BD5AF42B19CBD38C00D0288B /* Embed App Extensions */,
+				BEB1CC3EEA8546978A1B3EDC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5AF42419CBD38C00D0288B /* PBXTargetDependency */,
+				BD5AF42719CBD38C00D0288B /* PBXTargetDependency */,
+			);
+			name = ZJUWLAN;
+			productName = ZJUWLAN;
+			productReference = BD5AF3E719CBD10600D0288B /* ZJUWLAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5AF3FF19CBD10600D0288B /* ZJUWLANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5AF40D19CBD10600D0288B /* Build configuration list for PBXNativeTarget "ZJUWLANTests" */;
+			buildPhases = (
+				7C6040A99D2B427894B9C913 /* Check Pods Manifest.lock */,
+				BD5AF3FC19CBD10600D0288B /* Sources */,
+				BD5AF3FD19CBD10600D0288B /* Frameworks */,
+				BD5AF3FE19CBD10600D0288B /* Resources */,
+				087BB4AA39CF4F6683996F48 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5AF40219CBD10600D0288B /* PBXTargetDependency */,
+			);
+			name = ZJUWLANTests;
+			productName = ZJUWLANTests;
+			productReference = BD5AF40019CBD10600D0288B /* ZJUWLANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5AF41619CBD38C00D0288B /* TodayExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5AF42819CBD38C00D0288B /* Build configuration list for PBXNativeTarget "TodayExt" */;
+			buildPhases = (
+				DF07453FF9EC43C9BEFB0FCE /* Check Pods Manifest.lock */,
+				BD5AF41319CBD38C00D0288B /* Sources */,
+				BD5AF41419CBD38C00D0288B /* Frameworks */,
+				BD5AF41519CBD38C00D0288B /* Resources */,
+				DE9A34826360480AA163B852 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExt;
+			productName = TodayExt;
+			productReference = BD5AF41719CBD38C00D0288B /* TodayExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5AF3DF19CBD10600D0288B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = yangz;
+				TargetAttributes = {
+					BD5AF3E619CBD10600D0288B = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3879Q7E36U;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+					BD5AF3FF19CBD10600D0288B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BD5AF3E619CBD10600D0288B;
+					};
+					BD5AF41619CBD38C00D0288B = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3879Q7E36U;
+					};
+				};
+			};
+			buildConfigurationList = BD5AF3E219CBD10600D0288B /* Build configuration list for PBXProject "ZJUWLAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5AF3DE19CBD10600D0288B;
+			productRefGroup = BD5AF3E819CBD10600D0288B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5AF3E619CBD10600D0288B /* ZJUWLAN */,
+				BD5AF3FF19CBD10600D0288B /* ZJUWLANTests */,
+				BD5AF41619CBD38C00D0288B /* TodayExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5AF3E519CBD10600D0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF3F619CBD10600D0288B /* Main.storyboard in Resources */,
+				BD5AF3FB19CBD10600D0288B /* LaunchScreen.xib in Resources */,
+				BD5AF3F819CBD10600D0288B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF3FE19CBD10600D0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF41519CBD38C00D0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF42219CBD38C00D0288B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087BB4AA39CF4F6683996F48 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314B46B2AEBB4E9FB5A7A1C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C6040A99D2B427894B9C913 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB1CC3EEA8546978A1B3EDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9A34826360480AA163B852 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF07453FF9EC43C9BEFB0FCE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5AF3E319CBD10600D0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD8729019D07A5B00993502 /* DTIAnimPulse.swift in Sources */,
+				BD5AF43219CC830100D0288B /* ZJUNetworkManager.m in Sources */,
+				BDD8729619D07A5B00993502 /* DTIAnimWanderingCubes.swift in Sources */,
+				BDD8728619D07A5B00993502 /* CALayer+DTI.swift in Sources */,
+				BD5AF3F319CBD10600D0288B /* ViewController.m in Sources */,
+				BDD8729A19D07A5B00993502 /* DTIAnimWp8.swift in Sources */,
+				BDD8729819D07A5B00993502 /* DTIAnimWave.swift in Sources */,
+				BDD8728A19D07A5B00993502 /* DTIAnimChasingDots.swift in Sources */,
+				BD5AF3F019CBD10600D0288B /* AppDelegate.m in Sources */,
+				BD5AF3ED19CBD10600D0288B /* main.m in Sources */,
+				BDD8728E19D07A5B00993502 /* DTIAnimProtocol.swift in Sources */,
+				BDD8729C19D07A5B00993502 /* DTIIndicatorStyle.swift in Sources */,
+				BDD8727319CF26D900993502 /* RoundButton.m in Sources */,
+				BDD8729419D07A5B00993502 /* DTIAnimSpotify.swift in Sources */,
+				BDD8728C19D07A5B00993502 /* DTIAnimDoubleBounce.swift in Sources */,
+				BDD8727019CF26C600993502 /* FullWidthTextField.m in Sources */,
+				BDD8728819D07A5B00993502 /* DTIActivityIndicatorView.swift in Sources */,
+				BDD8729219D07A5B00993502 /* DTIAnimRotatingPlane.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF3FC19CBD10600D0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF40719CBD10600D0288B /* ZJUWLANTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5AF41319CBD38C00D0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5AF43319CC830100D0288B /* ZJUNetworkManager.m in Sources */,
+				BDD8729919D07A5B00993502 /* DTIAnimWave.swift in Sources */,
+				BD5AF42019CBD38C00D0288B /* TodayViewController.m in Sources */,
+				BDD8729719D07A5B00993502 /* DTIAnimWanderingCubes.swift in Sources */,
+				BDD8728719D07A5B00993502 /* CALayer+DTI.swift in Sources */,
+				BDD8728D19D07A5B00993502 /* DTIAnimDoubleBounce.swift in Sources */,
+				BDD8729319D07A5B00993502 /* DTIAnimRotatingPlane.swift in Sources */,
+				BDD8729B19D07A5B00993502 /* DTIAnimWp8.swift in Sources */,
+				BDD8729519D07A5B00993502 /* DTIAnimSpotify.swift in Sources */,
+				BDD8729D19D07A5B00993502 /* DTIIndicatorStyle.swift in Sources */,
+				BDD8729119D07A5B00993502 /* DTIAnimPulse.swift in Sources */,
+				BDD8728919D07A5B00993502 /* DTIActivityIndicatorView.swift in Sources */,
+				BDD8728F19D07A5B00993502 /* DTIAnimProtocol.swift in Sources */,
+				BDD8728B19D07A5B00993502 /* DTIAnimChasingDots.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5AF40219CBD10600D0288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5AF3E619CBD10600D0288B /* ZJUWLAN */;
+			targetProxy = BD5AF40119CBD10600D0288B /* PBXContainerItemProxy */;
+		};
+		BD5AF42419CBD38C00D0288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5AF41619CBD38C00D0288B /* TodayExt */;
+			targetProxy = BD5AF42319CBD38C00D0288B /* PBXContainerItemProxy */;
+		};
+		BD5AF42719CBD38C00D0288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5AF41619CBD38C00D0288B /* TodayExt */;
+			targetProxy = BD5AF42619CBD38C00D0288B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5AF3F419CBD10600D0288B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5AF3F519CBD10600D0288B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5AF3F919CBD10600D0288B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5AF3FA19CBD10600D0288B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5AF40819CBD10600D0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5AF40919CBD10600D0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5AF40B19CBD10600D0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ZJUWLAN/ZJUWLAN.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJUWLAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZJUWLAN/ZJUWLAN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		BD5AF40C19CBD10600D0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ZJUWLAN/ZJUWLAN.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJUWLAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZJUWLAN/ZJUWLAN-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		BD5AF40E19CBD10600D0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJUWLANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUWLAN.app/ZJUWLAN";
+			};
+			name = Debug;
+		};
+		BD5AF40F19CBD10600D0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJUWLANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUWLAN.app/ZJUWLAN";
+			};
+			name = Release;
+		};
+		BD5AF42919CBD38C00D0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TodayExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayExt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
+			};
+			name = Debug;
+		};
+		BD5AF42A19CBD38C00D0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC90AF9886B4A0B9FDE3C58 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TodayExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayExt-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5AF3E219CBD10600D0288B /* Build configuration list for PBXProject "ZJUWLAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5AF40819CBD10600D0288B /* Debug */,
+				BD5AF40919CBD10600D0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5AF40A19CBD10600D0288B /* Build configuration list for PBXNativeTarget "ZJUWLAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5AF40B19CBD10600D0288B /* Debug */,
+				BD5AF40C19CBD10600D0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5AF40D19CBD10600D0288B /* Build configuration list for PBXNativeTarget "ZJUWLANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5AF40E19CBD10600D0288B /* Debug */,
+				BD5AF40F19CBD10600D0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5AF42819CBD38C00D0288B /* Build configuration list for PBXNativeTarget "TodayExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5AF42919CBD38C00D0288B /* Debug */,
+				BD5AF42A19CBD38C00D0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5AF3DF19CBD10600D0288B /* Project object */;
+}

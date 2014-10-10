@@ -1,0 +1,3 @@
+pod 'MKNetworkKit'
+
+link_with 'ZJUWLAN','ZJUWLANTests','TodayExt'
